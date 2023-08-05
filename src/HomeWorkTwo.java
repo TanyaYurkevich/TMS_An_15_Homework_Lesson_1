@@ -1,7 +1,9 @@
-public class HomeWorkTwo{
+import java.util.Scanner;
 
-    public static void main(String[] args) {
-        System.out.println("Lesson2");
+public class Input {
+    public static void main(String[] args){
+        String str = new Scanner(System.in).next();
+        System.out.println("Привет " +str );
 
     }
 }
